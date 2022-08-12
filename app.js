@@ -1,5 +1,7 @@
 "use strict";
 
+/*
+
 // Variables to use
 let computerChoice = ["Rock", "Paper", "Scissors"];
 let scoreComputer = 0;
@@ -74,3 +76,6 @@ function game(){
 }
 
 game();
+
+
+*/
