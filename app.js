@@ -22,6 +22,9 @@ let computerCounter = 0;
 // Setting variable for draw
 let draw = document.querySelector(".draw");
 
+// Setting variable for new round button
+let newRoundBtn = document.querySelector(".newRound-btn");
+
 // Create array and put rock, paper and scissors into it
 let computerChoice = [];
 
@@ -35,8 +38,14 @@ function computerPlay() {
     return randComputer;
 }
 
-// Put random computer value into variable
-//let computerChoiceValue = computerPlay();
+// Restart scoring with button
+newRoundBtn.addEventListener("click", () => {
+    computerCounter = 0;
+    playerCounter = 0;
+
+    computerScoring.innerHTML = computerCounter;
+    playerScoring.innerHTML = playerCounter;
+})
 
 //Create event listener for rock image
 rock.addEventListener("click", () => {

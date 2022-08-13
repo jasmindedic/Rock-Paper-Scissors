@@ -39,6 +39,28 @@ body {
     transition: opacity 0.4s ease-out;
 }
 
+/* Section refresh button */
+.refresh-btn .container {
+    display: flex;
+    justify-content: center;
+}
+
+.newRound-btn {
+    background-color: #95afc0;
+    border-color: #95afc0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.newRound-btn:hover {
+    transform: scale(1.2);
+    transition: transform 0.4s ease-in-out;
+    background-color: #c7ecee;
+}
+
 /* Section Scoring */
 .scoringList .container {
     display: flex;
